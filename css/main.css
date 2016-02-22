@@ -13,6 +13,7 @@ header {
 #logo {
     max-height: 150px;
     border: none;
+    display: block;
 }
 
 main {
@@ -44,7 +45,7 @@ footer {
 
 .navbar li:hover {
     background-color: #f90;
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 .navbar a:hover {
@@ -52,7 +53,7 @@ footer {
 }
 
 .navbar li {
-    padding: 10px;
+/*    padding: 10px;*/
 }
 
 section {
@@ -168,6 +169,26 @@ td {
 
 #news-signup input {
     margin: 5px 0;
+}
+
+#news-signup input[type=text],
+#news-signup input[type=date],
+#news-signup input[type=email] {
+    border: 0;
+    border-bottom: 2px solid #080;
+    outline: none;
+}
+
+#news-signup input[type=text]:focus,
+#news-signup input[type=date]:focus,
+#news-signup input[type=email]:focus {
+    border-bottom: 2px solid #da0;
+}
+
+#news-signup input[type=text]:invalid,
+#news-signup input[type=date]:invalid,
+#news-signup input[type=email]:invalid {
+    border-bottom: 2px solid #ccc;
 }
 
 #news-thanks {
