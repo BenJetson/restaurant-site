@@ -179,11 +179,13 @@ td {
     outline: none;
 }
 
+/*
 #news-signup input[type=text]:focus,
 #news-signup input[type=date]:focus,
 #news-signup input[type=email]:focus {
     border-bottom: 2px solid #da0;
 }
+*/
 
 #news-signup input[type=text]:invalid,
 #news-signup input[type=date]:invalid,
@@ -198,6 +200,18 @@ td {
     padding: 10px;
     color: #050;
     text-align: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+.social img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 /*** image styles ***/
