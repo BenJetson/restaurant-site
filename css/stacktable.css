@@ -1,0 +1,60 @@
+/* Main Stacktable CSS */
+
+.stacktable {
+	width: 100%;
+}
+
+.st-head-row {
+	padding-top: 1em;
+	text-decoration: underline;
+}
+
+.st-head-row.st-head-row-main {
+	font-size: 1.5em;
+	padding-top: 0;
+	text-decoration: none;
+}
+
+.st-key {
+	width: 29%;
+	text-align: right;
+	padding-right: 1%;
+}
+
+.st-val {
+	width: 69%;
+	padding-left: 1%;
+	font-style: italic;
+}
+
+
+
+/* RESPONSIVE EXAMPLE */
+
+.stacktable.large-only {
+	display: table;
+}
+
+.stacktable.small-only {
+	display: none;
+}
+table.table.stacktable.small-only {
+	border: 5px solid #000;
+}
+
+@media (max-width: 700px) {
+	.stacktable.large-only {
+		display: none;
+	}
+	
+	.stacktable.small-only {
+		display: table;
+		/* border: 3px solid #000; */
+		background-color: #f9f9f9;
+		box-shadow: 0px 2px 2px #b1b1b1;
+		padding: 5px;
+		margin: 10px auto;
+		border-radius: 3px;
+	}
+		
+}
