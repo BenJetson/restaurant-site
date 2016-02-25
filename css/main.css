@@ -68,6 +68,8 @@ aside {
 
 }
 
+/* Styles for the menu page. */
+
 .stacktable.large-only {
     display: none;
 }
@@ -97,6 +99,11 @@ aside {
     text-align: center;
 }
 
+.menu-img td img {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
 .st-val {
     width: 100%;
     font-style: normal;
@@ -106,18 +113,28 @@ aside {
     float: right;
 }
 
-
-/*
-.st-val:not(.menu tbody tr:first-child) {
-    font-style: italic;
+#download-btn {
+    display: block;
+    background-color: #3df;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    height: 70px;
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    border: none;
 }
-*/
 
-/*
-div table.small-only:first-child {
-    display: none;
+#download-btn img {
+    float: left;
+    height: 40px;
+    margin-right: 5px;
 }
-*/
 
 /**** base styles ***/
 
@@ -273,7 +290,7 @@ td {
 /*** image styles ***/
 
 img  {
-	
+	max-width: 100%;
 }
 
 
