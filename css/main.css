@@ -99,9 +99,11 @@ aside {
     text-align: center;
 }
 
-.menu-img td img {
+.menu img {
     border-radius: 5px;
     overflow: hidden;
+    display: block;
+    width: 100%;
 }
 
 .st-val {
