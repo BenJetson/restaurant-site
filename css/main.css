@@ -3,7 +3,7 @@
 body {
     font-family: sans-serif;
 /*    background-color: #ee7;*/
-    background-color: #fff;
+    background-color: #ffffe9;
 }
 
 header {
@@ -86,15 +86,32 @@ aside {
     display: none;
 }
 
+.menu tbody tr:first-child {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.menu-info td {
+    font-style: italic;
+/*    font-weight: normal;*/
+    text-align: center;
+}
+
 .st-val {
     width: 100%;
     font-style: normal;
 }
 
-.menu tbody tr:first-child {
-    font-style: normal;
-    font-weight: bold;
+.menu button {
+    float: right;
 }
+
+
+/*
+.st-val:not(.menu tbody tr:first-child) {
+    font-style: italic;
+}
+*/
 
 /*
 div table.small-only:first-child {
@@ -211,6 +228,7 @@ td {
 #news-signup input[type=text],
 #news-signup input[type=date],
 #news-signup input[type=email] {
+    background-color: inherit;
     border: 0;
     border-bottom: 2px solid #080;
     outline: none;
