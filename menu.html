@@ -3,7 +3,7 @@
 <html lang="en">
     
     <head>
-        <title>Ben's BBQ: Home</title>
+        <title>Ben's BBQ: Menu</title>
         <link rel="icon" href="img/favicon.png">
         
         <!-- Stylesheets -->
@@ -11,7 +11,9 @@
         <link rel="stylesheet" href="css/stacktable.css">
         <link rel="stylesheet" href="css/main.css">
         
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Roboto|Fjalla+One' rel='stylesheet' type='text/css'>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
         <meta charset="utf-8">
     </head>
 
@@ -20,22 +22,24 @@
         <header>
             <div class="container">
                 <div class="row">
-<!--                    <div class="full">-->
-                    <div class="one-third">
+                    <div class="full">
+<!--                    <div class="one-third">-->
                         <a href="index.html">
                             <img class="center" src="img/logo.png" id="logo" alt="Logo">
                         </a>
                     </div>
+<!--
                     <div class="two-thirds">
                         <nav class="navbar static-mobile lower-left">
                             <ul>
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="menu.html">Menu</a></li>
-<!--                                <li><a href="order.html">Order</a></li>-->
+                                <li><a href="order.html">Order</a></li>
                                 <li><a href="about.html">About Us</a></li>
                             </ul>
                         </nav>
                     </div>
+-->
                 </div>
             </div>
         </header>
@@ -43,8 +47,15 @@
         <div class="container">
             
             <div class="row">
-                <div class="full">
+                <div class="five-sixths">
                     <h2>Menu</h2>
+                </div>
+                
+                <div class="one-sixth">
+                    <a href="files/menu.pdf" download id="download-btn">
+                        <img src="img/pdf-icon.png">
+<!--                        Download PDF-->
+                    </a>
                 </div>
             </div>
             
@@ -55,7 +66,7 @@
                     
                     <table class="menu">
                         <tr>
-                            <td>Regular Pulled Pork Plate</td>
+                            <td class="item">Regular Pulled Pork Plate</td>
                             <td>Comes with one half-pint of BBQ and two sides.</td>
                             <td>$6.50 <button class="add2cart">Add to cart</button></td>
                         </tr>
@@ -196,22 +207,47 @@
                     
                 </div>
                 
-                <div class="row">
-                    <div class="two-thirds">
-                        <h3>Your Cart</h3>
-                        <p>Currently, online ordering is disabled due to issues with our card reader. Please call us to place an order. Sorry for any inconvenience that this may cause.</p>
-                    </div>
-                    <div class="one-third">
-                        <h3>Printable Menu</h3>
-                        <a href="files/menu.pdf" download id="download-btn">
-                            <img src="img/pdf-icon.png">
-                            Download PDF
-                        </a>
-                    </div>
-                </div>
                 
             </div>
             
+<!--
+            <div class="row">
+                <div class="two-thirds">
+                    <h3>Your Cart</h3>
+                    <p>Currently, online ordering is disabled due to issues with our card reader. Please call us to place an order. Sorry for any inconvenience that this may cause.</p>
+                </div>
+                <div class="one-third">
+                    <h3>Printable Menu</h3>
+                    <a href="files/menu.pdf" download id="download-btn">
+                        <img src="img/pdf-icon.png">
+                        Download PDF
+                    </a>
+                </div>
+            </div>
+-->
+            
+            <div class="row">
+                <div class="full">
+                    <h2>Your Cart</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="one-fourth">
+                    <h3>Main Plates</h3>
+                </div>
+                
+                <div class="one-fourth">
+                    <h3>Sides</h3>
+                </div>
+                
+                <div class="one-fourth">
+                    <h3>Desserts</h3>
+                </div>
+                
+                <div class="one-fourth">
+                    <h3>Beverages</h3>
+                </div>
+            </div>
         </div>
         
         <footer>
