@@ -68,6 +68,14 @@ aside {
 
 }
 
+.bldctr {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
 /* Styles for the menu page. */
 
 .stacktable.large-only {
@@ -133,6 +141,10 @@ aside {
     border: none;
 }
 
+#download-btn:active {
+    background-color: #9ff;
+}
+
 #download-btn img {
     float: left;
     height: 40px;
@@ -154,7 +166,7 @@ h2 {
     border-bottom: 3px solid #800;
     color: #800;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 h3 {
@@ -162,7 +174,7 @@ h3 {
     border-bottom: 3px solid #006;
     color: #006;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h4 {
@@ -255,6 +267,10 @@ td {
     box-shadow: 1px 2px 4px #888;
 }
 
+.buttons:active, button:active {
+    background-color: #a40;
+}
+
 #hours th, #hours td {
     text-align: center;
     padding: 5px;
@@ -269,6 +285,14 @@ td {
     display: block;
     margin-top: 5px;
 }
+
+input[type=text],
+input[type=date],
+input[type=email] {
+    font-family: Roboto;
+    font-size: 16px;
+}
+
 
 #news-signup input[type=text],
 #news-signup input[type=date],
