@@ -76,6 +76,25 @@ aside {
     width: 100%;
 }
 
+/*** link styles ***/
+
+a:link, a:hover {
+    color: #060;
+}
+
+a:visited, a:active {
+    color: #040;
+}
+
+a:hover {
+    
+}
+
+a:active {
+
+}
+
+
 /* Styles for the menu page. */
 
 .stacktable.large-only {
@@ -189,8 +208,17 @@ h6 {
 
 }
 
+.center, .center p, p.center {
+    text-align: center;
+}
+
+
 p {
     text-align: justify;
+}
+
+footer li {
+    line-height: 2.0;
 }
 
 blockquote {
@@ -256,7 +284,7 @@ td {
     background-color: #820;
 /*    background-color: #07f;*/
     text-align: center;
-    color: #fff;
+    color: #fff !important;
     font-weight: bold;
     text-decoration: none;
     border-radius: 10px;
@@ -332,7 +360,7 @@ input[type=email] {
     flex-direction: row;
 }
 
-.social img {
+.social img, .social a {
     padding-top: 0;
     width: 80px;
     height: 80px;
@@ -353,23 +381,4 @@ img  {
 }
 
 
-/*** link styles ***/
 
-a:link {
-
-}
-
-a:visited {
-
-}
-
-a:hover {
-
-}
-
-a:active {
-
-}
-
-
-/*** form styles (coming soon) ***/
